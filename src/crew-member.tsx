@@ -10,10 +10,14 @@ type CremateProps = {
     specialty:string
 }
 
+const headingStyle: React.CSSProperties ={
+    color:"red"
+}
+
 export function CrewmateInfo(props: CremateProps){
 
     return <>
-        <h1>{props.name}</h1>
+        <h1 style={headingStyle}>{props.name}</h1>
         <table>
             <thead>
                 <tr><th>Species</th><th>Homeplanet</th><th>Specialty</th></tr>

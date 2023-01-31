@@ -1,3 +1,4 @@
+import "./planet-style.css"
 
 type PlanetProps ={
     name: string,
@@ -18,7 +19,7 @@ export function PlanetInfo(props: PlanetProps){
 
                 <dt>Home of</dt>
                 <dd>{originSpecies}</dd>
-            </>: <p>Uninhabited</p>}
+            </>: <p style={{color:"red"}}>Uninhabited</p>}
 
         </dl>
     </>
