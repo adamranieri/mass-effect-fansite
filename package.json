@@ -2,7 +2,7 @@
   "name": "mass-effect-fansite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/adamranieri/mass-effect-fansite",
+  "homepage": "https://adamranieri.github.io/mass-effect-fansite",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
